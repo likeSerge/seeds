@@ -20,7 +20,7 @@ module.exports = {
 
   module: {
     rules: [
-      {test: /\.ts$/, loader: "ts-loader"},
+      {test: /\.ts$/, loader: "awesome-typescript-loader"},
 
       // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
       {enforce: "pre", test: /\.js$/, loader: "source-map-loader"}
